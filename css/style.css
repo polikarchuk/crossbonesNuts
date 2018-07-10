@@ -1,0 +1,46 @@
+
+.cbalink{
+    display: none!important;
+}
+.game-title{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#area{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 156px;
+    margin: 0 auto 50px;
+    border: 1px solid #000;
+}
+
+.cell{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all linear .3s;
+}
+
+
+#reset-game{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
