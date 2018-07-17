@@ -33,13 +33,14 @@
 }
 
 
-#reset-game{
+#reset-game, #back{
     display: block;
     margin: 0 auto;
     border: 1px solid #000;
     border-radius: 20px;
     background-color: #fff;
     padding: 10px 20px;
+    margin-bottom: 10px;
     cursor: pointer;
     transition: all linear .3s;
 }

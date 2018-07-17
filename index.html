@@ -16,10 +16,11 @@
     <label>
         <input type="number" value="3"  id="size" min="3" max="6">
     </label>
-    <span class="game-title"id="message">Ходит игрок X</span>
+    <span class="game-title"id="message">Ходит игрок {{player}}</span>
 
     <div  id="area">
     </div>
+    <button id="back">Назад</button>
     <button id="reset-game">Очистить</button>
 
 </div>
@@ -27,5 +28,6 @@
 
 </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </html>
